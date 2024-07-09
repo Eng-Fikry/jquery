@@ -1,0 +1,111 @@
+
+
+.head{
+
+    background-image: linear-gradient(rgba(220, 46, 46, 0.7) , rgba(255, 44, 44, 0.7)) ,  url(../images/soccer-fans-cheering-their-team-stadium.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+
+}
+
+.one , .two , .three , .four{
+    background-color: #ff7b64;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.singer1 ,.singer2 ,.singer3 ,.singer4{
+    background-color: rgb(221, 207, 207);
+    padding: 10px;
+    
+}
+
+.join{
+    background-image: linear-gradient(rgba(220, 46, 46, 0.7) , rgba(255, 44, 44, 0.7)) ,  url(../images/images.jpeg);
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+}
+
+.col-lg-3 div{
+    font-weight: 400;
+    padding: 50px;
+    border: 2px solid white;
+    font-size: 30px;
+    color: white;
+    
+}
+
+nav{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top:0px;
+    bottom: 0px;
+    left: -227.875px;
+    transition: .5s ease;
+    z-index: 999999999;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 20px 0;
+    font-size: 32px;
+    
+    cursor: pointer;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    transition: .5s ease;
+
+}
+
+nav >i{
+    position: absolute;
+    top:30px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+nav ul li a:hover,nav >i:hover{
+
+    color: rgb(136, 37, 37);
+}
+
+.icon{
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.iconss i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    line-height: 40px;
+    cursor: pointer;
+    color: gray;
+    transition: .2s ease;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.iconss i:hover{
+    background-color: #ff7b64;
+    color: white;
+    border: 1px solid transparent;
+}
+h1{
+    font-size: 60px;
+}
