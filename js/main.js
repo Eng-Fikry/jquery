@@ -11,7 +11,7 @@ $("nav i").click(function () {
 
 $(".icon").click(function () {
 
-     let wid2=$(".icon").outerWidth()+width 
+    
     $("nav").css("left",0)
     $(".icon").css("left",width+10)
      
